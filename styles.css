@@ -1,0 +1,93 @@
+.master-container {
+    background: rgb(175, 237, 175);
+    border: 5px solid green;
+    padding: 20px;
+}
+
+.master-header {
+    display: flex;
+    background: lightblue;
+    border: 5px solid blue;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.master-header div {
+    flex: 1;
+}
+
+.master-header>div {
+    background: rgb(255, 206, 184);
+    border: 5px solid rgb(207, 124, 124);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header-middle {
+    display: flex;
+    padding: 5px;
+}
+
+.header-middle>div {
+    background: pink;
+    border: 5px solid red;
+}
+
+.master-body {
+    display: flex;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.master-body>div {
+    flex: 1;
+}
+
+.body-left {
+    background: rgb(249, 176, 188);
+    border: 5px solid maroon;
+    margin-right: 5px;
+}
+
+.body-right-top,
+.body-right-bottom {
+    background: rgb(249, 176, 188);
+    border: 5px solid maroon;
+    height: 85px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.master-tail {
+    display: flex;
+    background: lightblue;
+    border: 5px solid blue;
+    height: 100px;
+    padding: 10px;
+}
+
+.master-tail div {
+    flex: 1;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.tail-left,
+.tail-right {
+    background: rgb(228, 217, 255);
+    border: 5px solid rgb(115, 68, 236);
+}
+
+.tail-middle-left,
+.tail-middle-right {
+    background: rgb(255, 206, 184);
+    border: 5px solid rgb(207, 124, 124);
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
