@@ -68,12 +68,19 @@
     background: lightblue;
     border: 5px solid blue;
     height: 100px;
-    gap: 5px;
     padding: 10px;
+    /* On axis alingment of all items */
+    justify-content: space-evenly;
+    /* Cross axis alignment of all items */
+    align-items: center;
+    
 }
 
+
 .master-tail div {
-    flex: 1;
+    flex: 0 1 auto;
+    width: 80px;
+    height: 80px;
 }
 
 .tail-left,
@@ -86,6 +93,15 @@
 .tail-middle-right {
     background: rgb(255, 206, 184);
     border: 5px solid rgb(207, 124, 124);
+}
+
+.tail-middle-left {
+    /* Cross axis alignment of individual item */
+    align-self: flex-end;
+}
+
+.tail-middle-right {
+    align-self: flex-start;
 }
 
 p {
